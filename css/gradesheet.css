@@ -1,0 +1,51 @@
+main > h1.name {
+  font-size: 30px;
+}
+
+header > nav > ul > li > a[href="gradesheet.html"] {
+  background: #FFDB4B90;
+  color: #999;
+  font-weight: bold;
+}
+
+form#gradesheet {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  color: #fff;
+}
+
+form#gradesheet > label,
+form#gradesheet > input,
+form#gradesheet > select {
+  width: 90%;
+}
+form#gradesheet > label {
+  color: #555;
+}
+
+
+select,
+div.print {
+  height: 35px;
+  border: 1px solid #fff;
+}
+
+div.print {
+  width: 90%;
+  margin-top: 40px;
+  border: .2px solid #fff;
+}
+
+div.print > input {
+  height: 100%;
+  background: #070AFF;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  width: fit-content;
+  padding: 0 10px;
+}

@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #ccc;
+}
+header{
+  background: gold;
+}
+
+header > img {
+  border-radius: 50%;
+}
+
+header > p {
+  font: 430 25px arial, sans-serif;
+  padding-bottom: 5px;
+}
+
+header + a {
+  background: black;
+  color: gold;
+  width: fit-content;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button.remove {
+  font-size: 45px;
+  width: fit-content;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  display: none;
+}
+
+button.remove:active {
+  color: #f00;
+}
+
+
+form {
+  display: none;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  align-items: center;
+  min-width: 50%;
+  gap: 20px;
+  align-self: center;
+  background: #fff;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+div.user {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+div.logo > img {
+  max-width: 100px;
+}
+
+div.user > label {
+  font: bold 23px arial;
+}
+
+div.user > input {
+  height: 2.5em;
+  padding: 5px 0 5px 10px; 
+  font-size: 18px;
+  border: 1px solid #999;
+}
+
+div.user > input:focus {
+  outline: 1px solid #000;
+  border: 1px solid #000;
+}
+
+
+div.submit{width: 100%}
+
+div.submit > input {
+  background: #000;
+  color: gold;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 2.4em;
+  font-size: 20px;
+}
+
+div.reset {width: 100%;
+  padding: 10px 0 0 10px;
+}
+
+div.reset > input {
+  background: #000;
+  color: gold;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  height: 2em;
+  padding: 0 10px;
+}

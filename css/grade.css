@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+div#body {
+  margin-top: 50px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #4F504D;
+  font-size: 16px;
+  font-family: sans-serif;
+  box-shadow: 2px -2px 8px #0006,
+              -2px 2px 8px #3335;
+}
+
+div.head{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 20px;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h2.gradesheet {
+  color: #1B3C9C;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+tr.description {
+  background: #aaa;
+}
+
+tr.description > :not(:last-child),
+th.total{
+  text-align: left;
+}
+
+div.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+td{
+  border-bottom: 1px solid #aaa;
+}
+
+
+td,th{
+  padding: 5px;
+}
+
+tr > :not(:first-child) {
+  text-align: right;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+tr:nth-of-type(3) > :nth-child(2),
+tr:nth-of-type(4) > :nth-child(2),
+tr:nth-of-type(5) > :nth-child(2),
+tr:nth-of-type(6) > :nth-child(2),
+tr:nth-of-type(7) > :nth-child(2),
+tr:nth-of-type(8) > :nth-child(2){
+  text-align: left;
+}
+
+p.dean {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
