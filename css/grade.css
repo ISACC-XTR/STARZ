@@ -36,7 +36,8 @@ address {
   gap: 5px;
   align-items: flex-end;
   font-size: 18px;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 550;
 }
 
 h2.gradesheet {
@@ -97,3 +98,7 @@ p.dean {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
+td.removeLine {
+  border: none !important;
+  }
